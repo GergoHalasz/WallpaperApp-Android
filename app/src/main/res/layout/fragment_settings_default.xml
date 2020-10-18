@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+<ImageView
+    android:layout_marginTop="50dp"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:background="@drawable/ic_minus">
+
+
+
+</ImageView>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textColor="@color/colorWhite"
+            android:text="@string/string_not_signed_in"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+<com.google.android.gms.common.SignInButton
+    android:layout_marginTop="25dp"
+    android:id="@+id/button_google_sign"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content">
+
+</com.google.android.gms.common.SignInButton>
+
+        </LinearLayout>
+
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-8156706115088392/6788151545">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

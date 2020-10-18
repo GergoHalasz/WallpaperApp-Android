@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Wallpaper Hub</string>
+
+
+    <string name="nav_home">Home</string>
+    <string name="nav_favourites">Favourites</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="string_not_signed_in">You have to sign in first</string>
+    <string name="string_signed_in">Please rate my app :)</string>
+</resources>

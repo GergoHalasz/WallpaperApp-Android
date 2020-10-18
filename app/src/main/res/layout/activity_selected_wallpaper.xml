@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="homelol.fissher.wallpaperhub.home.fissher.wallpaperhub.activity.SelectedWallpaper"
+    android:id="@+id/tunjel"
+    >
+    <ImageView
+        android:id="@+id/selected_imageview"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+    <LinearLayout
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@id/selected_imageview"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <CheckBox
+
+            android:button="@drawable/fav_checkbox_selected"
+            android:id="@+id/checkbox_favourite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+
+
+
+
+        <ImageButton
+            android:id="@+id/button_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/ic_share" />
+        <ImageButton
+            android:background="@drawable/ic_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_download"/>
+
+
+    </LinearLayout>
+
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressbar"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+        >
+
+    </ProgressBar>
+
+
+
+    <Button
+    android:layout_width="140dp"
+    android:layout_height="35dp"
+
+
+
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="75dp"
+    android:text="Set home screen"
+    android:id="@+id/wallpaperbuton"
+    android:background="@color/colorButton"
+
+
+
+    >
+
+
+
+
+</Button>
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+
+
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="Set lock screen"
+        android:id="@+id/wallpaperbutton"
+        android:background="@color/colorButton"
+
+
+
+        >
+
+
+
+
+    </Button>
+
+
+
+</RelativeLayout>

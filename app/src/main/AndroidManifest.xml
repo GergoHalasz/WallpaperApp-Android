@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="home.fissher.wallpaperhub">
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+
+        android:allowBackup="true"
+        android:icon="@drawable/f122"
+        android:label="F1 HD Wallpapers"
+        android:roundIcon="@drawable/f122"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="home.fissher.wallpaperhub.activity.SelectedWallpaper"
+            android:screenOrientation="portrait"
+
+            />
+        <activity android:name="home.fissher.wallpaperhub.activity.HomeActiviy"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name="home.fissher.wallpaperhub.activity.WallpapersActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="home.fissher.wallpaperhub.activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8156706115088392~9861037445"/>
+
+
+    </application>
+
+</manifest>

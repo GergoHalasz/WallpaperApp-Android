@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "312034671196",
+    "firebase_url": "https://mywallpaperapp-6cc0a.firebaseio.com",
+    "project_id": "mywallpaperapp-6cc0a",
+    "storage_bucket": "mywallpaperapp-6cc0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312034671196:android:84cb2f41161d9c6c988499",
+        "android_client_info": {
+          "package_name": "com.example.wallpaperhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312034671196-dbilugir4hil2d2pa0tvaorujfo4llnt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wallpaperhub",
+            "certificate_hash": "5e8ac8f71a2def10ec201cec656332774ed5aa69"
+          }
+        },
+        {
+          "client_id": "312034671196-tlmsok805u5cf0vifqqi4hii3t6gp3nc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuWW6sypAw9VP8PlavFXbkPzAQH9ascJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312034671196-tlmsok805u5cf0vifqqi4hii3t6gp3nc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312034671196:android:863e543027f9dccf988499",
+        "android_client_info": {
+          "package_name": "home.fissher.wallpaperhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312034671196-q2g064cpcj5mqfd762f2pg3iej26tfa7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "home.fissher.wallpaperhub",
+            "certificate_hash": "5e8ac8f71a2def10ec201cec656332774ed5aa69"
+          }
+        },
+        {
+          "client_id": "312034671196-tlmsok805u5cf0vifqqi4hii3t6gp3nc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuWW6sypAw9VP8PlavFXbkPzAQH9ascJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312034671196-tlmsok805u5cf0vifqqi4hii3t6gp3nc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312034671196:android:a167b511df8f04e7988499",
+        "android_client_info": {
+          "package_name": "homelol.fissher.wallpaperhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312034671196-e1lq31ecqptqp0f1p94fu9qouupe9a8n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "homelol.fissher.wallpaperhub",
+            "certificate_hash": "5e8ac8f71a2def10ec201cec656332774ed5aa69"
+          }
+        },
+        {
+          "client_id": "312034671196-tlmsok805u5cf0vifqqi4hii3t6gp3nc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuWW6sypAw9VP8PlavFXbkPzAQH9ascJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312034671196-tlmsok805u5cf0vifqqi4hii3t6gp3nc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

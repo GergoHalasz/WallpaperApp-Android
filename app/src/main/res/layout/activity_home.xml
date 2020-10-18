@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme"
+    android:background="@color/colorPrimary"
+    tools:context="homelol.fissher.wallpaperhub.wow.fissher.wallpaperhub.activity.HomeActiviy">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"></com.google.android.material.appbar.AppBarLayout>
+
+    <include
+        layout="@layout/content_main"
+        android:layout_height="141dp" />
+
+    <androidx.appcompat.widget.Toolbar
+
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:title="F1 HD Wallpapers      -       Tap at any driver"
+        app:titleTextColor="@color/colorTitle"
+        android:background="@color/colorPrimary"
+        >
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        >
+
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@color/colorRed"
+        app:itemIconTint="@color/colorPrimary"
+        app:itemTextColor="@color/colorPrimary"
+        app:layout_anchor="@+id/linearLayout"
+        app:layout_anchorGravity="center"
+        app:menu="@menu/nav_menu">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-8156706115088392/6788151545">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
